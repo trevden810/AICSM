@@ -1,0 +1,36 @@
+{
+  "name": "aicsm",
+  "version": "1.0.0",
+  "description": "AI Customer Service Manager",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "test": "node src/testOpenAI.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.1.0",
+    "express": "^4.18.2",
+    "franc": "^6.2.0",
+    "mongoose": "^8.8.0",
+    "openai": "^4.0.0",
+    "pg": "^8.11.0",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/aicsm.git"
+  },
+  "keywords": [
+    "customer-service",
+    "chatbot",
+    "AI",
+    "OpenAI"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
